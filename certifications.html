@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications | My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <style>
+    /* Accordion Buttons */
+    .accordion-button {
+      font-weight: bold;
+      color: #3a0ca3;
+      background: #eef2ff;
+    }
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    /* Cards inside accordion */
+    .accordion-body .card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      transition: 0.3s;
+    }
+    .accordion-body .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    }
+    .accordion-body .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 3px solid #3a0ca3;
+      cursor: pointer;
+    }
+    .accordion-body .card h5 {
+      font-weight: bold;
+      color: #3a0ca3;
+    }
+    .accordion-body .card p {
+      font-size: 0.9rem;
+      color: #1b1b1b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar --> 
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background: #3a0ca3;">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link active text-white" href="certifications.html">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-5" style="margin-top:80px;">
+    <div class="container">
+      <h2 class="section-title text-center mb-4" data-aos="fade-up">Certifications</h2>
+
+      <div class="accordion" id="certificationsAccordion">
+
+        <!-- Coursera Section -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="webDevHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#webDev" aria-expanded="true" aria-controls="webDev">
+              Coursera 
+            </button>
+          </h2>
+          <div id="webDev" class="accordion-collapse collapse show" aria-labelledby="webDevHeading" data-bs-parent="#certificationsAccordion">
+            <div class="accordion-body">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-11 234853.png" data-lightbox="coursera" data-title="Agile Project Management">
+                      <img src="images/Screenshot 2025-09-11 234853.png" alt="Agile Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Agile Project Management</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 000124.png" data-lightbox="coursera" data-title="Full Stack Development using Django">
+                      <img src="images/Screenshot 2025-09-12 000124.png" alt="Full Stack Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Full Stack Development using Django</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-11 234540.png" data-lightbox="coursera" data-title="Software Engineering">
+                      <img src="images/Screenshot 2025-09-11 234540.png" alt="Software Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Software Engineering</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 002455.png" data-lightbox="coursera" data-title="Agile with Atlassian Jira">
+                      <img src="images/Screenshot 2025-09-12 002455.png" alt="Agile Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Agile with Atlassian Jira</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-11 231110.png" data-lightbox="coursera" data-title="Blockchain">
+                      <img src="images/Screenshot 2025-09-11 231110.png" alt="Blockchain Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Blockchain</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Redhat Section -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="javaHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#javaCerts" aria-expanded="false" aria-controls="javaCerts">
+              Redhat 
+            </button>
+          </h2>
+          <div id="javaCerts" class="accordion-collapse collapse" aria-labelledby="javaHeading" data-bs-parent="#certificationsAccordion">
+            <div class="accordion-body">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 000143.png" data-lightbox="redhat" data-title="RH104">
+                      <img src="images/Screenshot 2025-09-12 000143.png" alt="RH104 Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>RH104</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 000200.png" data-lightbox="redhat" data-title="DO180">
+                      <img src="images/Screenshot 2025-09-12 000200.png" alt="DO180 Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>DO180</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 000228.png" data-lightbox="redhat" data-title="RH124">
+                      <img src="images/Screenshot 2025-09-12 000228.png" alt="RH124 Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>RH124</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 000216.png" data-lightbox="redhat" data-title="DO101">
+                      <img src="images/Screenshot 2025-09-12 000216.png" alt="DO101 Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>DO101</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python Section -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="pythonHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pythonCerts" aria-expanded="false" aria-controls="pythonCerts">
+              Python & Data Science
+            </button>
+          </h2>
+          <div id="pythonCerts" class="accordion-collapse collapse" aria-labelledby="pythonHeading" data-bs-parent="#certificationsAccordion">
+            <div class="accordion-body">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 001515.png" data-lightbox="python" data-title="Programming with Python">
+                      <img src="images/Screenshot 2025-09-12 001515.png" alt="Programming with Python Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Programming with Python</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm">
+                    <a href="images/Screenshot 2025-09-12 001801.png" data-lightbox="python" data-title="Getting started with Python">
+                      <img src="images/Screenshot 2025-09-12 001801.png" alt="Getting Started with Python Certificate">
+                    </a>
+                    <div class="card-body text-center">
+                      <h5>Getting started with Python</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Accordion end --> 
+    </div>
+  </section>
+
+  <!--Footer -->
+  <footer class="text-center py-3" style="background:#1b1b1b; color:white;">
+    <p>© 2025 My Portfolio | ShravaniGite </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>

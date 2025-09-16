@@ -1,0 +1,134 @@
+/* ===== GENERAL STYLING ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background: #f8f9fa; /* light background */
+  color: #1b1b1b;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #3a0ca3 !important; /* deep purple */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffd60a !important; /* golden yellow hover */
+}
+
+/* ===== HERO SECTION ===== */
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #3a0ca3, #4361ee); /* purple → blue gradient */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#home h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#home p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+#home .btn {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 50px;
+  background-color: #ffd60a;
+  border: none;
+  color: #000;
+}
+
+#home .btn:hover {
+  background-color: #ffc300;
+  color: #000;
+}
+
+/* ===== SECTION TITLES ===== */
+h2.section-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #3a0ca3;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+h2.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ffd60a;
+  margin: 12px auto 0;
+  border-radius: 5px;
+}
+
+/* ===== CARDS (Certifications, Hobbies) ===== */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* ===== TIMELINE (Education Page) ===== */
+.timeline .item {
+  background: #ffffff;
+  padding: 20px;
+  border-left: 5px solid #3a0ca3;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #3a0ca3;
+  color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ffd60a;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
